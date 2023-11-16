@@ -26,9 +26,10 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { navigate } from 'astro:transitions/client';
+import { Image } from 'astro:assets';
 
 const INITIAL_DATA = [{
-    "image": "https://static.vecteezy.com/system/resources/previews/012/708/011/large_2x/farm-field-is-half-planted-with-pepper-and-leek-seedlings-growing-vegetables-on-small-farm-land-shares-agroindustry-farming-olericulture-agriculture-landscape-farmland-photo.jpg",
+    "image": "/1.webp",
     "title": "Innovaciones en la Producción de Maíz",
     "description": "Exploraremos las últimas tecnologías y prácticas en la producción de maíz que están revolucionando la agroindustria. Desde el uso de semillas mejoradas hasta técnicas avanzadas de manejo del suelo, descubre cómo los agricultores están optimizando sus cultivos para obtener cosechas más abundantes y sostenibles.",
     "author": "María González",
@@ -37,7 +38,7 @@ const INITIAL_DATA = [{
     "slug": "innovaciones-en-la-produccion-de-maiz"
 },
 {
-    "image": "https://thumbs.dreamstime.com/b/el-agua-fluye-trav%C3%A9s-de-canales-riego-en-una-plantaci%C3%B3n-cebolla-puericultura-agricultura-y-agroindustria-conservaci%C3%B3n-del-los-191943261.jpg",
+    "image": "2.webp",
     "title": "Cultivo Sostenible de Cebollas",
     "description": "Descubre las prácticas innovadoras en la plantación de cebollas que promueven la sostenibilidad y la conservación del agua en la agricultura. Exploraremos las técnicas de riego eficientes y cómo la agroindustria está contribuyendo a la preservación del medio ambiente.",
     "author": "Juan Pérez",
